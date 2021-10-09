@@ -22,6 +22,55 @@
                 <a href="#">Art Works</a>
                 <a href="#">Artists</a>
             </nav>
+            <form action="http://www.randyconnolly.com/tests/process.php" target="_blank">
+                <fieldset>
+                    <h2>Customer Registration</h2>
+                    <h3>1. User Info</h3>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td>
+                                <p>
+                                    First Name <br>
+                                    <input type="text" name="first" required>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Last Name <br>
+                                    <input type="text" name="last" required>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                        Email <br>
+                        <input type="email" name="email"  placeholder="Format for email xxx@yyy.zzz" required>
+                    </p>
+                    <table>
+                        <tr>
+                            <td>
+                                <p>
+                                    Password <br>
+                                    <input type="password" name="pass1" placeholder="At least 8 characters"
+                                           pattern="()().{8,}" required>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Password Repeat <br>
+                                    <input type="password" name="pass1" placeholder="At least 8 characters" required>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <h3>2. Location</h3>
+                    <hr>
+                </fieldset>
+                <p>
+                    <button type="submit"><img src="img/button_ok.png"></button>
+                </p>
+            </form>
         </main>
         <footer>
 
