@@ -8,3 +8,7 @@ body {
 #img1 {
     float: left;
 }
+
+.topNav {
+    float: right;
+}
