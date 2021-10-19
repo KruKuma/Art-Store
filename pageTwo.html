@@ -13,8 +13,6 @@
                 <a href="#">Shopping Cart</a>
                 <a href="#">Checkout</a>
             </nav>
-        </header>
-        <main>
             <h1>Art Store</h1>
             <nav class="centreNav">
                 <a href="pageOne.html">Home</a>
@@ -22,6 +20,8 @@
                 <a href="#">Art Works</a>
                 <a href="#">Artists</a>
             </nav>
+        </header>
+        <main>
             <form action="http://www.randyconnolly.com/tests/process.php" target="_blank">
                 <fieldset>
                     <h2>Customer Registration</h2>
@@ -61,18 +61,89 @@
                             <td>
                                 <p>
                                     Password Repeat <br>
-                                    <input type="password" name="pass1" placeholder="At least 8 characters" required>
+                                    <input type="password" name="pass2" placeholder="At least 8 characters" required>
                                 </p>
                             </td>
                         </tr>
                     </table>
                     <h3>2. Location</h3>
                     <hr>
-
+                    <p>
+                        Address <br>
+                        <input type="text" name="address" required>
+                    </p>
+                    <table>
+                        <tr>
+                            <td><p>
+                                City <br>
+                                <input type="text" name="city">
+                            </p></td>
+                            <td>
+                                <p>
+                                    State <br>
+                                    <input type="text" name="state">
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Zip <br>
+                                    <input type="text" name="zip">
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Phone <br>
+                                    <input type="text" name="phone" placeholder="NNN-NNN-NNNN">
+                                </p>
+                            </td>
+                            <td>
+                                Country <br>
+                                <select name="country">
+                                    <option value="Canada">Canada</option>
+                                    <option value="USA">USA</option>
+                                    <option value="UK">UK</option>
+                                    <option value="Ireland">Ireland</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                        Continent <br>
+                        <input type="radio" name="continent" value="1"> <label>North America</label> <br>
+                        <input type="radio" name="continent" value="2"> <label>Europe</label> <br>
+                        <input type="radio" name="continent" value="3"> <label>South America</label>
+                    </p>
+                    <h3>3. Personal Details</h3>
+                    <hr>
+                    <table>
+                        <tr>
+                            <td>
+                                <p>
+                                    Birth Day <br>
+                                    <input type="date" name="birthday" placeholder="dd/mm/yyyy">
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    Favourite Colour <br>
+                                    <input type="color" name="favorite">
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                        Interest in Art <br>
+                        <label>Minimal</label><input type="range" min="1" max="10" name="interest"><label>Love it</label>
+                    </p>
+                    <h3>3. Personal Details</h3>
+                    <hr>
+                    <input type="checkbox" name="accept" value="on"><label>I agree to the <a href="#">Term of the Site</a></label>
+                    <p>
+                        <button type="submit"><img src="img/button_ok.png"></button>
+                    </p>
                 </fieldset>
-                <p>
-                    <button type="submit"><img src="img/button_ok.png"></button>
-                </p>
             </form>
         </main>
         <footer>
