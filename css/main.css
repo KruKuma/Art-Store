@@ -19,6 +19,10 @@ header nav.centreNav {
     background-color: #f2f2f2;
 }
 
+main {
+    background-color: #f2f2f2;
+}
+
 footer {
     overflow: hidden;
     background-color: #333;
