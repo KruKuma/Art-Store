@@ -33,6 +33,14 @@ footer {
     width: 30%;
 }
 
+form {
+    text-align: center;
+}
+
+.input1 {
+    font-size: 30px;
+}
+
 .topNav a:hover {
     background-color: #ddd;
     color: black;
